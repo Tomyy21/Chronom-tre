@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&family=Sixtyfour&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: cadetblue;
+  }
+
+  .chronometre {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    width: 500px;
+    text-align: center;
+}
+
+.tim {
+    margin: auto;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.tim span {
+    /* font-family: 'Sixtyfour', sans-serif; */
+    padding: 5px;
+}
+
+.controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button {
+    background-color: rgb(40, 221, 230);
+    color: #fff;
+    font-size: 15px;
+    padding: 14px 20px;
+    border-radius: 5px;
+    width: 31%;
+    border: 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
